@@ -1,6 +1,5 @@
 package com.ss.rowMapper;
 
-import com.ss.api.Tenant;
 import com.ss.dto.TenantDTO;
 import org.springframework.jdbc.core.RowMapper;
 

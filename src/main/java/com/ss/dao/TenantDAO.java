@@ -1,6 +1,5 @@
 package com.ss.dao;
 
-import com.ss.api.Tenant;
 import com.ss.dto.TenantDTO;
 
 import java.util.List;

@@ -1,8 +1,6 @@
 package com.ss.controller;
 
-import com.ss.api.Tenant;
 import com.ss.dao.TenantDAO;
-import com.ss.dao.TenantDAOImpl;
 import com.ss.dto.TenantDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,7 +15,7 @@ import java.util.List;
 public class Unit01Controller {
 
 
-    private TenantDAO tenantDAO;
+    private final TenantDAO tenantDAO;
 //    = new TenantDAOImpl();
 
     @GetMapping("/tenants")
